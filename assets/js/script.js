@@ -59,8 +59,8 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            document.title = "Portfolio | Vu Hai Dang";
+            $("#favicon").attr("href", "myAssets/Images/chiken.png");
         }
         else {
             document.title = "Come Back To Portfolio";
@@ -110,7 +110,7 @@ function showProjects(projects) {
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/myAssets/Images/Projects/${project.image}.jpg" alt="project" />
+      <img draggable="false" src="./myAssets/Images/Projects/${project.image}.jpg" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
