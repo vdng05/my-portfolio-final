@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Sync Game Tabs",
+    "desc": "Gửi phím ảo, quản lý đa tiến trình, sắp xếp cửa sổ, chat/nhập liệu tự động. Sử dụng C# WinForms, Windows API user32.dll, Process, WMI, HTTPS",
+    "image": "DongBo",
+    "category": "desktop",
+    "links": {
+      "view": "https://www.youtube.com/watch?v=fIR5YZTNSRg",
+      "code": "https://github.com/vdng05/DongBoClientNroAll"
+    }
+  },
+  {
+    "name": "Account Manager and Game Control",
+    "desc": "Hỗ trợ quản lý và điều khiển các chức năng trong game thông qua socket TCP. Sử dụng C# WinForms + Guna UI, Windows API user32.dll,  mã hóa mật khẩu AES, WMI, HTTPS",
+    "image": "QLTK",
+    "category": "desktop",
+    "links": {
+      "view": "https://www.youtube.com/watch?v=NSssgMGIqqI&t=1s",
+      "code": "https://github.com/vdng05/QLTKNro240"
+    }
+  }
+]
